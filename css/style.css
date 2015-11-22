@@ -22,10 +22,14 @@ body{
 }
 .grid-item{
 	width: 280px;
-	height: 280px;
 	display: table-cell;
 	margin-right: 1%;
-	padding-bottom: 10px;	
+	width: 25%; 
+	padding:10px;
 }
-.grid-item { width: 25%; }
-.pic{width:90%;}
+.pic{
+	width:280px;
+}
+ul#search_bars li{
+	display:inline;
+}

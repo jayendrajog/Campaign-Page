@@ -18,7 +18,30 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Campaigns</h1>
+  	<div class="row">
+   		<h1>Campaigns</h1>
+   		<ul id="search_bars">
+   			<li>
+		   		<form>
+		   			Search by Title:
+		   			<input type = "text" id="the_title">	
+		   			<button type="button" class="btn btn-primary-outline" id="submit_title">Search</button>
+		   			<button type="button" class="btn btn-primary-outline" id="reset_title">Reset</button>
+		   		</form>
+		    </li>
+		    <br>
+		    <li>
+		    	<form>
+			    	Search by Description:
+			   		<input type = "text" id ="the_tag">
+			   		<button type="button" class="btn btn-primary-outline" id="submit_tag">Search</button>
+		   			<button type="button" class="btn btn-primary-outline" id="reset_tag">Reset</button>
+				</form>
+		    <li>
+    	</ul>
+
+   	
+   	</div>
 
  
 <br>
@@ -33,6 +56,6 @@
     <!-- Masonry -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
-    <script src = "js/script.js">   	</script>
+    <script src = "js/script.js"> </script>
   </body>
 </html>
